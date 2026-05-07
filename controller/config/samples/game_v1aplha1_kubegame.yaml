@@ -1,0 +1,9 @@
+apiVersion: game.kubegame.com/v1aplha1
+kind: Kubegame
+metadata:
+  labels:
+    app.kubernetes.io/name: controller
+    app.kubernetes.io/managed-by: kustomize
+  name: kubegame-sample
+spec:
+  # TODO(user): Add fields here
